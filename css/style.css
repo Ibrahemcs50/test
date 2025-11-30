@@ -1,0 +1,51 @@
+/* تنسيقات عامة */
+body {
+    background: linear-gradient(to left, #6086ab, #ffffff); /* خلفية متدرجة */
+    min-height: 80vh; /* ارتفاع لا يقل عن 80% من الشاشة */
+    
+    font-family: 'Arial', sans-serif; /* اختر خطًا مناسبًا */
+    background-color: #f8f9fa; /* لون خلفية فاتح */
+    color: #333;
+}
+
+/* تخصيص الـ Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* تنسيق قسم البداية (Hero Section) */
+#hero {
+    background: linear-gradient(to left, #6086ab, #ffffff); /* خلفية متدرجة */
+    min-height: 80vh; /* ارتفاع لا يقل عن 80% من الشاشة */
+    display: flex; /* لضمان تمركز المحتوى رأسيًا */
+    align-items: center;
+}
+
+#hero img {
+    border: 5px solid #0d6efd; /* إطار أزرق حول الصورة */
+}
+
+/* تنسيق تأثيرات بطاقات المشاريع */
+.project-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px; /* حواف مستديرة */
+    
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* رفع البطاقة قليلًا */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important; /* ظل أكبر */
+     background: linear-gradient(to left, #6086ab, #ffffff); /* خلفية متدرجة */
+    min-height: 80vh; /* ارتفاع لا يقل عن 80% من الشاشة */
+}
+
+/* تنسيق أيقونات التواصل الاجتماعي في التذييل */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #0d6efd !important; /* تغيير اللون عند المرور */
+}
